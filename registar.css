@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin: 0;
+  }
+  
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("img/beja2-opacidade.png");
+    background-attachment: fixed;
+    background-position: center center;
+    
+  
+  }
+
+  * {box-sizing: border-box}
+
+  .container {
+    background-color:white;
+    width:40%;
+    margin:auto;
+    margin-top:34px;
+    padding: 16px;
+    border:2px solid white;
+    border-radius:20px;
+  }
+  
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:34px;
+    padding: 10px;
+    text-align:center;
+    color:#7e98a1;
+  }
+
+  input[type=text], input[type=email], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #8eacb64f;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    background-color: rgb(232, 250, 255);
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    background-color: #cc6b5e;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    width:40%;
+    margin:auto;
+    margin-top:15px;
+    padding: 16px;
+    border:2px solid white;
+    border-radius:20px;
+  }
+
+  @media screen and (max-width:480px){
+    .container{
+      width:100%;
+    }
+  }
+
+  
+ 
+
+  /* FOOTER */
+
+footer {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  background: #8eacb6;
+  text-align: right;
+  color: #f2f2f2;
+  padding: 17px;
+  bottom:0;
+  position:fixed;
+  font-size:15px;
+}
+
+footer p{
+  margin-right:45px;
+}
+
+footer img {
+  float: left;
+  width: auto;
+  height: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  footer img {
+    height: 15px;
+  }
+  footer p {
+    margin-left: 10px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer img {
+    height: 20px;
+  }
+  footer p {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+}

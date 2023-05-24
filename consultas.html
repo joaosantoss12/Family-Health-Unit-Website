@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="consultas.css" rel="stylesheet" type="text/css"/>
+    <link href="scss/consultas-scss.css" rel="stylesheet" type="text/css"/>
+    <link href="scss/navbar-scss.css" rel="stylesheet" type="text/css"/>
+    <link href="scss/footer-scss.css" rel="stylesheet" type="text/css"/>
+    <script src="javascript/aaaa.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image" sizes="16x16">
+    
+    <title>USF Beja | Consultas</title>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="htmlteste.html">INICIO</a>
+        <a href="quemsomos.html">QUEM SOMOS</a>
+        <div class="dropdown">
+          <button onclick="location.href= 'oquefazemos.html';" class="dropbtn">O QUE FAZEMOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="consultas.html" class="active">CONSULTAS</a>
+          </div>
+        </div>
+        <a href="indicadores.html">INDICADORES</a>
+        <a href="recursos.html">RECURSOS</a>
+        <div class="dropdown">
+            <button class="dropbtn">MAIS APOIO
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="linhas.html">LINHAS DE APOIO</a>
+              <a href="perguntas.html">PERGUNTAS FREQUENTES</a>
+            </div>
+          </div>
+          <div class="topnav-right">
+            <a href="login.html">LOGIN</a>
+          </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    
+      </div>
+  </div>
+</head>
+<body>
+
+
+  <div class="conteudo">
+      <h1>Escolha o seu médico de família</h1>
+  </div>
+    <div class="global">
+      <form method="post" id="formulario" action="javascript:;" onsubmit="consultas()">
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Francisco Ferro" required="required"/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="fferro@gmail.com"/>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel" placeholder="924337454" maxlength="9" pattern="[0-9]{9}" required="required"/>
+
+        <label for="name">Cartão de Cidadão</label>
+        <input type="text" name="cartao" id="cartão" placeholder="30450493" maxlength="8" pattern="[0-9]{8}" required="required"/>
+        
+        <label for="sex">Sexo</label>
+        <select class="sexo" name="sexo">
+          <option value="">-- escolha uma opção --</option>
+          <option value="F">Feminino</option>
+          <option value="M">Masculino</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <label for="morada">Morada</label>
+        <input type="text" name="morada" id="morada" placeholder="Rua Exemplo" required="required"/>
+        
+        <label for="idade">Idade</label>
+        <input type="number"/>
+
+        <label for="informação">Outras Informações relevantes</label>
+        <textarea id="infor" name="infor" cols="70" rows="10" placeholder="Escreva aqui..."></textarea>
+
+        <label for="medico">Médico de Familia</label>
+        <select class="medico" name="medico">
+          <option value="">-- escolha uma opção --</option>
+          <option value="1">Dr.ª Benilde Heitor</option>
+          <option value="2">Dr.ª Conceição Ezequiel</option>
+          <option value="3">Dr. Cristino Agostinho</option>
+          <option value="4">Dr. José Carlos Dionísio</option>
+          <option value="5">Dr.ª Inês Gornilho</option>
+          <option value="6">Dr. José Belarmino</option>
+          <option value="7">Dr. José Ezequiel</option>
+          <option value="8">Dr. Gaspar Caetano</option>
+          <option value="9">Dr. Luís Coentro</option>
+          <option value="10">Dr.ª Madalena Valente</option>
+          </select>
+
+
+
+        <input type="submit" value="Escolher médico de família" id="teste">
+      </form>
+    </div>
+
+    <footer>
+      <p><img src="img/todoslogos.png"> &copy; 2021 Todos os Direitos Reservados</p>
+    </footer>
+  </div>
+
+  <script src="javascript/login.js"></script>
+    
+</body>
+</html>

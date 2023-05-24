@@ -1,0 +1,107 @@
+/* ========================================================================= | QUESTIONÁRIO | =========================================================== */
+  
+$size49: 49px;
+$size40: 40px;
+$size25: 25px;
+$size30: 30px;
+$size43: 43px;
+$size36: 36px;
+$size1: 1em;
+$size20: 20px;
+$size09: 0.9em;
+$size06: 0.6em;
+$size04: 0.4em;
+$size15: 1.5em;
+
+$color1:white;
+
+
+.conteudo h1{
+    margin-left: $size49;
+    margin-top: $size40;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size25;
+    text-transform: uppercase;
+    color: $color1;
+    text-decoration:underline;
+  }
+
+.global{
+    background-color:  #ffffff;
+    color: $color1;
+    margin-top:$size30;
+    margin-left:$size43;
+    width:50%;
+    border-radius:$size1;
+}
+#formulario{
+    background-color:#c78981;
+    padding: $size1;
+    border-radius: $size1;
+}
+
+#formulario label{
+    display:block;
+    font-weight: 200;
+    font-family: sans-serif;
+    padding: 12px 12px 12px 0;
+    font-size:$size20;
+}
+#formulario input{
+    width: 100%;
+    box-sizing:border-box;
+    font-size: $size09;
+    font-weight: 200;
+    padding: $size06;
+    border:0.05em white solid;
+    border-radius:$size04;
+}
+#formulario input[type="submit"]{
+    background-color:#68829E;
+    border:none;
+    color:$color1;
+    margin-top:$size15;
+    font-size:$size15;
+}
+
+.global textarea{
+  width:75%;
+}
+
+.sexo, .medico{
+  width: 100%;
+  padding: $size06;
+  border: 0.05em white solid;
+  border-radius: $size04;
+  font-size: $size09;
+}
+
+@media screen and (max-width:700px){
+  .global{
+      width:100%;
+      margin-right:$size36;
+      margin-left:0;
+  }
+  .conteudo h1{
+    text-align:center;
+  }
+}
+
+
+#teste{
+  cursor:pointer;
+}
+
+#global #formulario{
+  width: 50%;
+  box-sizing:border-box;
+  padding:$size20;
+  }
+
+#global::after{
+content:"";
+display:block;
+clear:both;
+}
+
+/* =========================================================================================================================================================== */

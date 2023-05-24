@@ -1,0 +1,18 @@
+.linhas a {
+  color: dodgerblue;
+  padding-left: 40px;
+  font-family: arial;
+}
+
+.linhas h2 {
+  padding-left: 25px;
+  color: #668792;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.linhas p {
+  padding-left: 40px;
+  font-family: arial;
+}
+/*# sourceMappingURL=linhas-scss.css.map */

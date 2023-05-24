@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet" type="text/css"/> 
+    <link href="scss/navbar-scss.css" rel="stylesheet" type="text/css"/>
+    <script src="javascript/aaaa.js"></script>
+    <script src="javascript/login.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image" sizes="16x16">
+    
+    <title>USF Beja | Login</title>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="htmlteste.html">INICIO</a>
+        <a href="quemsomos.html">QUEM SOMOS</a>
+        <div class="dropdown">
+          <button onclick="location.href= 'oquefazemos.html';" class="dropbtn">O QUE FAZEMOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="consultas.html">CONSULTAS</a>
+          </div>
+        </div>
+        <a href="indicadores.html">INDICADORES</a>
+        <a href="recursos.html">RECURSOS</a>
+        <div class="dropdown">
+            <button class="dropbtn">MAIS APOIO
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="linhas.html">LINHAS DE APOIO</a>
+              <a href="perguntas.html">PERGUNTAS FREQUENTES</a>
+            </div>
+          </div>
+          <div class="topnav-right">
+            <a href="login.html" class="active">LOGIN</a>
+          </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    
+      </div>
+  </div>
+</head>
+<body>
+
+  <form method="post" action="javascript:;" onsubmit="validar()">
+    <div class="container">
+      <h1>Login</h1>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Digite o seu email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Digite a sua Password" name="psw" id="psw" required>
+  
+  
+      <button type="submit" class="loginbtn">Entrar</button>
+    </div>
+
+    <div class="container signin">
+      <p>Criar conta <a href="registar.html">Aqui</a>.</p>
+    </div>
+  </form>
+
+  <footer>
+    <p><img src="img/todoslogos.png"> &copy; 2021 Todos os Direitos Reservados</p>
+  </footer> 
+    
+</body>
+</html>

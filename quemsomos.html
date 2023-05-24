@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="quemsomos.css" rel="stylesheet" type="text/css"/> 
+    <link href="scss/navbar-scss.css" rel="stylesheet" type="text/css"/>
+    <link href="scss/footer-scss.css" rel="stylesheet" type="text/css"/>
+    <script src="javascript/aaaa.js"></script>
+    <script src="javascript/login.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image" sizes="16x16">
+    
+    <title>USF Beja | Quem Somos</title>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="htmlteste.html">INICIO</a>
+        <a href="quemsomos.html" class="active">QUEM SOMOS</a>
+        <div class="dropdown">
+          <button onclick="location.href= 'oquefazemos.html';" class="dropbtn">O QUE FAZEMOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="consultas.html">CONSULTAS</a>
+          </div>
+        </div>
+        <a href="indicadores.html">INDICADORES</a>
+        <a href="recursos.html">RECURSOS</a>
+        <div class="dropdown">
+            <button class="dropbtn">MAIS APOIO
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="linhas.html">LINHAS DE APOIO</a>
+              <a href="perguntas.html">PERGUNTAS FREQUENTES</a>
+            </div>
+          </div>
+          <div class="topnav-right">
+            <a href="login.html">LOGIN</a>
+          </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    
+      </div>
+  </div>
+</head>
+<body>
+  
+<div class="col-container">
+  <div class="col">
+    <b><p class="missao">Missão</p></b><br>
+    <p>Prestar cuidados de saúde primários de forma personalizada, holística e acessível aos seus utentes, famílias<br>e comunidade, baseados em graus elevados de competencia técnico-científica.</p>
+    <br><br>
+
+    <b><p class="visao">Visão</p></b><br>
+    <p>Obter os melhores resultados na promocão da saúde e prevenção da doença, tendo em vista a satisfação dos interesses e necessidades de todos os intervenientes: utentes, famílias, comunidade e profissionais.</p>   
+    <br><br>
+
+    <b><p class="valores">Valores</p></b><br>
+    <p class="valores2">Ética, Disponibilidade, Excelência e Equidade na prestação de cuidados e na Democracia e Subsidiariedade na organização interna.</p>
+  </div>  
+
+  <div class="col">
+    <div class="equipa">
+      <b><p>Coordenador:</b><br>Luís Paixão Coentro</p>
+      <br><b><p>Conselho Técnico:</b><br>Madalena Valente (médica)<br>Luís Rosa (enfermeiro)<br>Francisco Costa (assistente técnico)</p>
+      <br><br><b><p>ARS:</b> ARS Alentejo</p>
+      <br><b><p>ACES:</b> ACES Baixo Alentejo</p>
+      <br><b><p>Modelo:</b> USF-B</p>
+      <br><b><p>Data de início de atividade:</b> 01/05/2008</p>
+    </div>
+  </div>
+</div>
+
+  <div class="col-container2">
+    
+    <div class="col2">
+    <b><p class="contactos1">Contactos</p></b>
+    <br><br><b><p class="telefone">Telefone</b><br>(+351) 284 311 320</p>
+    <br><b><p class="fax">Fax</b><br>(+351) 284 325 424</p>
+    <br><b><p class="email">Email</b><br>usfalfabeja@ulsba.min-saude.pt<br>geral@usf-an.pt</p>
+    <br><b><p class="website">Website</b><br>       <a class="websitelink" href="https://usfalfabeja.org">https://usfaltbeja.org</a></p>
+    </div>
+
+    <div class="col2">
+    <b><p class="horarios1">Horários</p></b>
+    <br><br><b><p class="sede">(SEDE)</b><br><br>De 2ª a 6ª feira: 08:00 às 22:00<br>Sábados, domingos e feriados: 08:00 às 14:00</p>
+    <br><br><br><b><p class="polos">(POLOS)</b><br><br>3ªF e 6ªF: 08:00 às 14:00<br>2ªF, 4ªF, 5ªF, Sábados: Domingos e Feriados: Encerrado</p>
+    <br><br>
+    </div>
+
+    <div class="col2">
+      <b><p class="localizaçao1">Localização</b></p>
+      <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.4328740747737!2d-7.866840611947826!3d38.01368677272748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1a7480d6e6e323%3A0x3154551f8818bad5!2sUnidade%20de%20Sa%C3%BAde%20Familiar%20Alfabeja!5e0!3m2!1spt-PT!2spt!4v1608917401419!5m2!1spt-PT!2spt" title="Unidade de Saúde Familiar de Beja" width="450" height="300" frameborder="0" style="border:2px solid black;"></iframe>
+    </div>
+  </div>
+
+  <div class="form">
+    <p><b>Formulário</b></p>
+  </div>
+
+    <div class="container">
+      <form method="post" action="javascript:;" onsubmit="enviarqs()">
+        <div class="row">
+          <div class="col-25">
+            <label for="nome">Nome:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="nome" name="nome" placeholder="Mariana Ferreira" required/>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="nome">Número do Cartão de Cidadão:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="cc" name="cc" maxlength="8" placeholder="Ex: 13579417" pattern="[0-9]{8}" required/>
+        </div>
+    </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email:</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Ex: marianaf@gmail.com" required/>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Selecione um tópico: </label>
+        </div>
+
+        <div class="col-75">
+          <select id="topico" name="topico">
+            <option value="">-- escolha uma opção --</option>
+            <option value="duvidas">Dúvidas</option>
+            <option value="sugestoes">Sugestões</option>
+            <option value="reclamaçoes">Reclamações</option>
+          </select>
+        </div>
+
+      </div>
+
+        <div class="row">
+         <div class="col-25">
+            <label for="subject"></label>
+        </div>
+
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Escreva aqui..." style="height:200px" required></textarea>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="btns">
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Apagar">
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <footer>
+    <p><img src="img/todoslogos.png"> &copy; 2021 Todos os Direitos Reservados</p>
+  </footer>
+   
+
+</body>
+</html>

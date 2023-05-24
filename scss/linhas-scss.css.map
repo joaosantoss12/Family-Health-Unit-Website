@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOI,AAAA,OAAO,CAAC,CAAC,CAAA;EACL,KAAK,EARL,UAAU;EASV,YAAY,EANb,IAAI;EAOH,WAAW,EARb,KAAK;CASN;;AAED,AAAA,OAAO,CAAC,EAAE,CAAA;EACN,YAAY,EAVb,IAAI;EAWH,KAAK,EAdL,OAAO;EAeP,WAAW,EAAE,wBAAwB;EACrC,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,OAAO,CAAC,CAAC,CAAA;EACL,YAAY,EAlBb,IAAI;EAmBH,WAAW,EApBb,KAAK;CAqBN",
+    "sources": [
+        "linhas-scss.scss"
+    ],
+    "names": [],
+    "file": "linhas-scss.css"
+}

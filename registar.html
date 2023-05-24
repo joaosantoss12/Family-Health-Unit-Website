@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registar.css" rel="stylesheet" type="text/css"/> 
+    <link href="scss/navbar-scss.css" rel="stylesheet" type="text/css"/>
+    <script src="javascript/aaaa.js"></script>
+    <script src="javascript/login.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image" sizes="16x16">
+    
+    <title>USF Beja | Registar</title>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="htmlteste.html">INICIO</a>
+        <a href="quemsomos.html">QUEM SOMOS</a>
+        <div class="dropdown">
+          <button onclick="location.href= 'oquefazemos.html';" class="dropbtn">O QUE FAZEMOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="consultas.html">CONSULTAS</a>
+          </div>
+        </div>
+        <a href="indicadores.html">INDICADORES</a>
+        <a href="recursos.html">RECURSOS</a>
+        <div class="dropdown">
+            <button class="dropbtn">MAIS APOIO
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="linhas.html">LINHAS DE APOIO</a>
+              <a href="perguntas.html">PERGUNTAS FREQUENTES</a>
+            </div>
+          </div>
+          <div class="topnav-right">
+            <a href="login.html" class="active">LOGIN</a>
+          </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    
+      </div>
+  </div>
+</head>
+<body>
+    
+
+
+
+  <form method="post" action="javascript:;" onsubmit="registar()">
+    <div class="container">
+      <h1>Registar</h1>
+      <hr>
+
+      <label for="nome"><b>Nome Completo</b></label>
+      <input type="text" placeholder="Escreva o seu nome completo" name="nome" id="nome" required>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Escreva o Email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Escreva a Password" name="psw" id="psw" required>
+  
+      <hr>
+  
+      <p>Ao criar a conta aceita os <a href="#">Termos e Condições</a>.</p>
+      <button type="submit" class="registerbtn">Registar</button>
+    </div>
+  
+    <div class="signin">
+      <p>Já tem uma conta? <a href="login.html">Login</a></p>
+    </div>
+  </form>
+  
+
+
+  <footer>
+    <p><img src="img/todoslogos.png"> &copy; 2021 Todos os Direitos Reservados</p>
+  </footer>
+
+</body>
+</html>

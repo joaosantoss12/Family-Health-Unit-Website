@@ -1,0 +1,24 @@
+$color1:dodgerblue;
+$color2:#668792;
+$font:arial;
+$pad40:40px;
+$pad25:25px;
+    
+    
+    .linhas a{
+        color:$color1;
+        padding-left: $pad40;
+        font-family: $font;
+    }
+
+    .linhas h2{
+        padding-left: $pad25;
+        color: $color2;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+    }
+            
+    .linhas p{
+        padding-left: $pad40;
+        font-family: $font;
+    } 

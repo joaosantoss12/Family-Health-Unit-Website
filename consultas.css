@@ -1,0 +1,13 @@
+*{
+    padding:0;
+    margin: 0;
+  }
+  
+  body{
+    background:url("img/beja1-opacidade.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+

@@ -1,0 +1,183 @@
+  *{
+     padding:0;
+     margin: 0;
+  }
+
+  /* ===================================================================== | SLIDESHOW + TEXTO | ============================================================= */
+
+
+  .slideshow{
+    box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    width:100%;
+  }
+  .slides{
+    width:100%;
+    height:100%;
+    display:none;
+  }
+
+  .l{
+    display:inline-block;
+    margin-top:55px;
+    margin-left:40px;
+  }
+
+  .l.esquerdo{
+    width:57%;
+    text-align: justify;
+    font-size:20px
+  }
+
+  .l.direito{
+    margin-top:65px;
+    width:35%;
+    margin-right:35px;
+  }
+
+  .l.direito img{
+    width:100%;
+    height:auto;
+    
+  }
+
+  #main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/* ======================================================================================================================================================== */
+
+
+
+/* ================================================================== | Menu de imagens com butoes | ============================================================== */
+
+h3{
+  font-size: 25px;
+  padding: 15px;
+}
+
+.caixa p{
+  font-size:20px;
+  padding:15px;
+}
+
+#bloco{
+  margin-top:80px;
+  text-align: center;
+}
+
+.caixa {
+  display:inline-block;
+}
+
+/* esquerda e direita */
+.caixa.lado {
+  width: 33%;
+  background-color:#cc6b5e;
+  text-align: center;
+}
+
+/* caixa do meio */
+.caixa.meio {
+  width: 33%;
+  background-color:#a4cfdd;
+  text-align: center;
+}
+
+/* limpar float depois das caixas */
+#bloco:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* colocar as 3 caixas uma por cima da outra */
+
+@media screen and (max-width: 1500px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+    margin-left:0;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:95%;
+    margin-left:0px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:94%;
+    margin-left:0px;
+    text-align: center;
+  }
+  .l.esquerdo{
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:93%;
+    margin-left:0px;
+    text-align: center;
+  }
+  .l.esquerdo{
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:91%;
+    margin-left:0px;
+    text-align:center;
+  }
+  .l.esquerdo{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:90%;
+    margin-left:0px;
+    text-align:center;
+  }
+  .l.esquerdo{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .caixa.lado, .caixa.meio {
+    width: 100%;
+  }
+  .l.esquerdo, .l.direito, .l.direito img {
+    width:87%;
+    margin-left:0px;
+    text-align:center;
+  }
+  .l.esquerdo{
+    font-size: 10px;
+  }
+}
+
+/* ======================================================================================================================================================== */
+

@@ -1,0 +1,48 @@
+$size30:30px;
+$size20:20px;
+$size17:17px;
+$size15:15px;
+$size12:12px;
+$size10:10px;
+$size9:9px;
+
+$color1:#8eacb6;
+$color2:#f2f2f2;
+
+
+/* Footer*/
+footer {
+    margin-top: $size20;
+    width: calc(100%-20px);
+    text-align: center;
+    background: $color1;
+    text-align:right;
+    color: $color2;
+    padding: $size17;
+  }
+  
+  footer img{
+    float:left;
+    width:auto;
+    height:$size30;
+  }
+  
+  @media screen and (max-width:450px){
+      footer img{
+        height:$size15;
+      }
+      footer p{
+        margin-left:$size10;
+        font-size:$size9;
+      }
+  }
+
+  @media screen and (max-width:600px){
+    footer img{
+      height:$size20;
+    }
+    footer p{
+      margin-left:$size15;
+      font-size:$size12;
+    }
+  }

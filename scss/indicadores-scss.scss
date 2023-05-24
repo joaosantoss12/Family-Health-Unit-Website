@@ -1,0 +1,25 @@
+/* ================================================================== | GRÁFICOS (CHARTS) | ================================================================== */
+
+    $radius: 2em;
+    $padding: 12px;
+    $border:3px solid rgba(161, 161, 161, 0.61);
+    $margin-esquerda1: 35px;
+    $margin-esquerda2:20px;
+    $margin-direita: 30px;
+
+
+    #chart_div1, #chart_div3, #chart_div5{
+        border:$border;
+        border-radius:$radius;
+        padding:$padding;
+        margin-left:$margin-esquerda1;
+    }
+    #chart_div2, #chart_div4, #chart_div6{
+        border:$border;
+        border-radius:$radius;
+        padding:$padding;
+        margin-left: $margin-esquerda2;
+        margin-right:$margin-direita;
+    }
+
+/* ============================================================================================================================================================ */

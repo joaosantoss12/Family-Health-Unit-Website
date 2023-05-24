@@ -1,0 +1,184 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+/* 2a parte */ /* ====================================== */
+
+.col-container {
+  margin-top:50px;
+  display: table;
+  font-size:19px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.col {
+  display: table-cell;
+  background-color:#bfd5d6;
+  width:60%;
+}
+
+p{
+  margin-left:10px;
+}
+
+b{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.websitelink{
+  color:dodgerblue;
+}
+
+.equipa{
+  margin-left:70px;
+}
+
+.missao, .visao, .valores{
+  font-size:27px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  margin-top:4px;
+}
+
+.contactos1, .horarios1, .localizaçao1{
+  margin-top:20px;
+  font-size:27px;
+  text-decoration: underline;
+  color:#8eacb6;
+}
+.telefone, .fax, .email, .website, .sede, .polos{
+  font-size:19px;
+}
+
+.col-container2 {
+  margin-top:80px;
+  margin-left:40px;
+  display: table;
+  width:calc(100% - 40px);
+}
+.col2 {
+  display: table-cell;
+}
+
+@media screen and (max-width: 600px) {
+  .col-container, .col-container2{
+    width:100%;
+    margin-left:0px;
+  }
+  iframe{
+    width:370px;
+    height:250px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .col-container, .col-container2{
+    width:100%;
+    margin-left:0px;
+  }
+  iframe{
+    width:270px;
+    height:250px;
+  }
+}
+
+@media screen and (max-width:850px){
+  .col2{
+    display:table;
+    width:65%;
+    margin-bottom:30px;
+  }
+}
+
+/* ==================================================================== | FORM | ==================================================================== */
+
+.form{
+  margin-top:55px;
+  font-size:27px;
+  text-decoration: underline;
+  margin-left:40px;
+  color:rgb(142, 172, 182);
+}
+
+input[type=text], select, textarea, input[type=email] {
+  width: 65%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size:15px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size:20px;
+}
+
+input[type=submit] {
+  background-color:#8eacb6;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=reset]
+{
+  background-color: #8eacb6;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color:#afcdd8;
+}
+
+input[type=reset]:hover {
+  background-color:#afcdd8 ;
+}
+
+.container {
+  margin-top:20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:40px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .form, .container, .col-25, .col-75, .btns {
+    width: 91.5%;
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+  }
+}
+
+/* ================================================================================================================================================= */
+

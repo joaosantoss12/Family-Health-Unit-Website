@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,iKAAiK;AAU7J,AAAA,WAAW,EAAE,WAAW,EAAE,WAAW,CAAA;EACjC,MAAM,EAPF,GAAG,CAAC,KAAK,CAAC,yBAAyB;EAQvC,aAAa,EAVR,GAAG;EAWR,OAAO,EAVD,IAAI;EAWV,WAAW,EATI,IAAI;CAUtB;;AACD,AAAA,WAAW,EAAE,WAAW,EAAE,WAAW,CAAA;EACjC,MAAM,EAbF,GAAG,CAAC,KAAK,CAAC,yBAAyB;EAcvC,aAAa,EAhBR,GAAG;EAiBR,OAAO,EAhBD,IAAI;EAiBV,WAAW,EAdG,IAAI;EAelB,YAAY,EAdC,IAAI;CAepB;;AAEL,kKAAkK",
+    "sources": [
+        "indicadores-scss.scss"
+    ],
+    "names": [],
+    "file": "indicadores-scss.css"
+}

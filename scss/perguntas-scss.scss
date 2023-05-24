@@ -1,0 +1,48 @@
+$margin10:10px;
+$size17:17px;
+$size28:28px;
+$maiuscula:uppercase;
+
+$color1:#4985a8;
+$color2:dodgerblue;
+    
+    
+    h2{
+        margin-left: 10px;
+        font-size:$size28;
+        font-family:  'Montserrat', sans-serif;
+        text-transform: $maiuscula;
+    }
+  
+    .conteudo {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    
+    .conteudo input,
+    .conteudo .resposta { display: none }
+    
+    .conteudo label {
+      display: inline-block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: $size17;
+      margin-left: $margin10;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      color: $color1;
+      margin-top: 7px;
+  
+    }
+    
+    .resposta a{
+      color:$color2;
+    }
+  
+    .conteudo input:checked ~ .resposta {
+      display: block;
+      margin-right: $margin10;
+      margin-left: $margin10;
+      font-size: $size17;
+      text-align: justify;
+    }

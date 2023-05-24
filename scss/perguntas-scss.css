@@ -1,0 +1,41 @@
+h2 {
+  margin-left: 10px;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.conteudo {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.conteudo input,
+.conteudo .resposta {
+  display: none;
+}
+
+.conteudo label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 17px;
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #4985a8;
+  margin-top: 7px;
+}
+
+.resposta a {
+  color: dodgerblue;
+}
+
+.conteudo input:checked ~ .resposta {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+/*# sourceMappingURL=perguntas-scss.css.map */
