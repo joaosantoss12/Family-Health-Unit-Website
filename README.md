@@ -1,8 +1,8 @@
 # Family-Health-Unit-Website
 
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js" />
+    <img style="width:4%; height:auto" src="https://skillicons.dev/icons?i=html,css,js" />
   </a>
 </p>
 
