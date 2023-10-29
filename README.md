@@ -6,5 +6,5 @@
   </a>
 </p>
 
-<p style="font-size:24px">A Family health unit website made with html, css, scss and javascript
+<p style="font-size:50px">A Family health unit website made with html, css, scss and javascript
 (htmlteste.html is the main page)</p>
